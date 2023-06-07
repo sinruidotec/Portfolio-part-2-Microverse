@@ -114,15 +114,19 @@ main {
   background: white;
 }
 
+#experience {
+  height: 3400px;
+}
+
 .title {
   width: 327px;
-  height: 83px;
+  height: 70px;
   font-family: 'Crete Round', serif;
   font-size: 40px;
   font-weight: 400;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 120px;
+  padding-top: 80px;
   margin-bottom: 0;
 }
 
@@ -133,14 +137,15 @@ main {
 }
 
 .placeholder {
-  padding-top: 24px;
+  padding-top: 80px;
   padding-left: 24px;
   padding-right: 24px;
 }
 
 .work {
   padding-left: 24px;
-  margin-bottom: 0;
+  margin-top: 14px;
+  margin-bottom: 10px;
   height: 36px;
   width: 327px;
   font-family: 'Crete Round', serif;
@@ -154,7 +159,7 @@ main {
   height: 147px;
   width: 327px;
   left: 0;
-  top: 48px;
+  margin-top: 0;
   padding-left: 24px;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -176,11 +181,9 @@ main {
   background: white;
   width: 31px;
   height: 20px;
-  padding: 10px, 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
   border: 1px solid #8993a4;
@@ -190,10 +193,9 @@ main {
   background: white;
   width: 67px;
   height: 20px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
   border: 1px solid #8993a4;
@@ -203,10 +205,9 @@ main {
   background: white;
   width: 95px;
   height: 20px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
   border: 1px solid #8993a4;
@@ -216,11 +217,9 @@ main {
   background: white;
   width: 31px;
   height: 20px;
-  padding: 10px, 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
   border: 1px solid #8993a4;
@@ -234,22 +233,30 @@ main {
 }
 
 .see-project {
-  height: 20px;
+  height: 48px;
   padding: 12px;
   font-family: 'Inter', sans-serif;
   background: #ff6b00;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
   align-items: center;
   color: #ffff;
+  transition: transform 0.3s;
+  border: none;
+}
+
+.see-project:hover {
+  transform: scale(1.02);
+  background-color: #172b4d;
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: 386px 386px 386px 386px 386px 386px;
   grid-template-columns: 327px 327px 327px 327px v 327px 327px;
-  gap: 24px;
+  justify-content: space-between;
+  row-gap: 24px;
 }
 
 .grid-item {
@@ -260,12 +267,15 @@ main {
 
 .profesional {
   padding-left: 37px;
-  padding-top: 42px;
-  padding-bottom: 12px;
+  padding-top: 70px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   height: 81px;
-  width: 295px;
+  width: 290px;
   font-family: 'Poppins', sans-serif;
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 400;
   line-height: 44px;
   text-align: left;
   color: white;
@@ -273,12 +283,13 @@ main {
 
 .daily {
   height: 99px;
-  width: 301px;
-  top: 48px;
+  width: 295px;
+  margin-top: 0;
   padding-left: 37px;
-  padding-top: 20px;
+  padding-top: 0;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
   text-align: left;
@@ -290,8 +301,10 @@ main {
   width: 247px;
   height: 40px;
   gap: 12px;
-  padding-left: 37px;
-  padding-top: 27px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  list-style: none;
   color: #ffff;
 }
 
@@ -302,7 +315,6 @@ main {
   padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
-  border: 1px solid #8993a4;
 }
 
 .but-boot {
@@ -312,39 +324,44 @@ main {
   padding: 10px 12px;
   font-size: 15px;
   line-height: 20px;
-  border: 1px solid #8993a4;
 }
 
 .but-ruby {
   background: #ffffff3d;
   width: 31px;
-  height: 20px;
+  height: 18px;
   padding: 12px 12px 10px 10px;
   font-size: 15px;
   line-height: 20px;
-  border: 1px solid #8993a4;
 }
 
 .orange-button1 {
   display: flex;
-  width: 327px;
-  height: 48px;
+  width: 327.1px;
+  height: 44px;
   padding-left: 22px;
-  padding-top: 21px;
 }
 
 .see-project1 {
-  height: 20px;
   width: 327px;
-  padding-left: 120px;
-  padding-right: 12px;
+  padding-left: 115px;
+  padding-right: 115px;
   padding-top: 12px;
   padding-bottom: 12px;
   font-family: 'Inter', sans-serif;
   background: #ff6b00;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 700;
+  line-height: 24px;
   color: #ffff;
+  transition: transform 0.3s;
+  border: none;
+  align-items: center;
+}
+
+.see-project1:hover {
+  transform: scale(1.02);
+  background-color: #172b4d;
 }
 
 #skillset {
@@ -400,7 +417,7 @@ main {
 }
 
 .see-project2 {
-  height: 20px;
+  height: 48px;
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 12px;
@@ -412,9 +429,14 @@ main {
   line-height: 24px;
   align-items: center;
   color: #ffff;
+  transition: transform 0.3s;
 }
 
-ul {
+.see-project2:hover {
+  transform: scale(1.1);
+}
+
+.languajes {
   display: flex;
   flex-direction: column;
   width: 375px;
@@ -438,7 +460,6 @@ ul {
   width: 375px;
   height: 850px;
   padding: 12px 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: #ffff;
   font-size: 17px;
   font-weight: 400;
@@ -447,10 +468,22 @@ ul {
   color: #ffff;
 }
 
-.about h2 {
+#contact h3 {
+  width: 327px;
+  height: 216px;
+  padding-left: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.about h4 {
   width: 375px;
   height: 79px;
-  color: #fff;
+  color: #ff6b00;
   margin-top: 120px;
   padding-left: 24px;
   margin-bottom: 45px;
@@ -460,28 +493,15 @@ ul {
   letter-spacing: 0.37px;
 }
 
-#contact h2 {
-  width: 327px;
-  height: 216px;
-  font-size: 32px;
-  line-height: 44px;
-  letter-spacing: 0.5px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  color: #172b4d;
-  text-align: center;
-  padding-left: 24.5px;
-  margin-bottom: 119px;
-}
-
 .prof-art {
+  width: 294px;
+  height: 81px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: 'Crete Round', serif;
   font-size: 32;
   font-weight: 400;
-}
-
-#contact p {
-  color: #172b4d;
+  line-height: 44px;
 }
 
 #skillset h3 {
@@ -500,75 +520,6 @@ ul {
   background-position: 23% 10.5%, 34% 81.7%, 20% 46.2%;
 }
 
-.flex-container {
-  display: flex;
-  align-items: center;
-}
-
-.form {
+hr {
   width: 327px;
-  flex: 1;
-  text-align: center;
-}
-
-.form-input {
-  width: 90.5%;
-  font-family: 'Inter', sans-serif;
-  padding-left: 18.1px;
-  padding-bottom: 14px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-.form-box {
-  width: 327px;
-  height: 90px;
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  background: #fbf8f7;
-  margin-bottom: 24px;
-  margin-right: 0;
-}
-
-.social-media {
-  width: 375;
-  height: 40px;
-  padding: 98px;
-  padding-right: 98px;
-  padding-top: 17px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url("Assets/Shape.svg");
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: 105px;
-}
-
-.send-button {
-  display: flex;
-  width: 131px;
-  height: 48px;
-  padding-left: 120px;
-  padding-bottom: 78px;
-}
-
-.send {
-  width: 131px;
-  height: 48px;
-  padding: 12px;
-  background: #ff6b00;
-  border: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  align-items: center;
-  color: #ffff;
-  transition: transform 0.3s;
-}
-
-.send:hover {
-  transform: scale(1.2);
 }
