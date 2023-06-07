@@ -161,8 +161,8 @@ main {
   left: 0;
   margin-top: 0;
   padding-left: 24px;
-  font-family: 'Inter', sans-serif;
   font-size: 16px;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
@@ -171,10 +171,16 @@ main {
 
 .teclast {
   display: flex;
-  width: 314px;
-  height: 40px;
   gap: 12px;
+  width: 247px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 24px;
+  list-style: none;
+  color: #091e42;
 }
 
 .css-button {
@@ -523,3 +529,11 @@ main {
 hr {
   width: 327px;
 }
+
+/* @media only screen and (min-width: 375px) {
+  ;
+}
+
+@media only screen and (min-width: 768px) {
+
+} */
