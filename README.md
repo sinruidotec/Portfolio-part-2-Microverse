@@ -10,8 +10,8 @@ Portfolio: setup and mobile first
   - [Tech Stack](#tech-stack)
   - [Key Features](#key-features)
   - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -103,6 +103,10 @@ Uploaded to Github and use Github Pages
 To run tests, run the following command:
 
 No tests needed at the moment
+
+### Deployment
+
+You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
