@@ -211,17 +211,17 @@
             <div class="flex-container">
                 <form class="form" action="https://formspree.io/f/{form_id}" method="post">
 
-                    <div class="form-input">
-                        <input type="text" placeholder="Full name" class="form-input">
-                    </div>
+                    <label form="name">
+                        <input type="text" id="name" name="name" placeholder="Full name" class="form-input" required maxlength="30">
+                    </label>
 
-                    <div class="form-input">
-                        <input type="email"  placeholder="Email" class="form-input"> 
-                    </div>
+                    <label class="form-input">
+                        <input type="email" id="email" name="email"  placeholder="Email" class="form-input" required> 
+                    </label>
                     
-                    <div class="form-section">
-                        <textarea class="form-box"  placeholder="Write something here..."></textarea>                    
-                    </div>
+                    <label class="form-section">
+                        <textarea class="form-box" id="message-box" name="message"  placeholder="Write something here..." required maxlength="500"></textarea>                    
+                    </label>
                     
                     <div class="send-button">
                         <button class="send">Get in touch</button>
