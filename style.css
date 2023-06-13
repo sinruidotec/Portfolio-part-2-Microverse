@@ -546,33 +546,41 @@ hr {
   line-height: 44px;
   letter-spacing: 0.5px;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #172b4d;
   text-align: center;
-  padding-left: 24.5px;
   margin-bottom: 119px;
 }
 
 .flex-container {
   display: flex;
   align-items: center;
+  margin-left: 23px;
+
 }
 
 .form {
   width: 327px;
-  flex: 1;
-  text-align: center;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .form-input {
-  width: 90.5%;
+  width: 94%;
   font-family: 'Inter', sans-serif;
-  margin-top: 71px;
-  padding: 0;
-  padding-bottom: 10px;
+  font-weight: 400;
+  color: #979493;
+  border-color: #979493;
+  margin-top: 50px;
+  margin-left: 0;
+  padding: 5px 10px; 
   border-top: none;
   border-left: none;
   border-right: none;
+
   }
 
 .form-box {
@@ -581,8 +589,8 @@ hr {
   font-family: 'Inter', sans-serif;
   font-style: italic;
   background: #fbf8f7;
-  margin-bottom: 24px;
-  margin-right: 0;
+  margin: 24px 0;
+  border: none;
 }
 
 .social-media {
@@ -604,8 +612,13 @@ hr {
   display: flex;
   width: 131px;
   height: 48px;
-  padding-left: 120px;
   padding-bottom: 78px;
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+  width: 327px;
 }
 
 .send {
@@ -625,16 +638,5 @@ hr {
 
 .send:hover {
   transform: scale(1.2);
-}
-
-textarea {
-  display: block;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-    background: #fff;
-    margin-top: 18px;
-    width: 327px;
-    height: 170px;
-    margin-left: 24px;
 }
 
