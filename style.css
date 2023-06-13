@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-  width: 375px;
   height: 90px;
+  width: 375px;
   justify-content: space-between;
   display: flex;
   align-items: end;
