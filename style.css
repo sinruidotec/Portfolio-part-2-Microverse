@@ -547,7 +547,6 @@ hr {
   display: flex;
   align-items: center;
   margin-left: 23px;
-
 }
 
 .form {
@@ -556,7 +555,6 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .form-input {
@@ -567,12 +565,11 @@ hr {
   border-color: #979493;
   margin-top: 50px;
   margin-left: 0;
-  padding: 5px 10px; 
+  padding: 5px 10px;
   border-top: none;
   border-left: none;
   border-right: none;
-
-  }
+}
 
 .form-box {
   width: 327px;
@@ -601,13 +598,8 @@ hr {
 
 .send-button {
   display: flex;
-  width: 131px;
   height: 48px;
   padding-bottom: 78px;
-}
-
-.send-button {
-  display: flex;
   justify-content: center;
   width: 327px;
 }
@@ -631,10 +623,10 @@ hr {
   transform: scale(1.2);
 }
 
-@media only screen and (min-width: 375px) {
-  
+/* @media only screen and (min-width: 375px) {
+
 }
 
 @media only screen and (min-width: 768px) {
 
-} 
+} */
