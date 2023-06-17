@@ -48,6 +48,7 @@ Portfolio: setup and mobile first
 
 - **[[Descriptive_README_File]**
 - **[Mobile_first_project]**
+- **[Desktop_version]**
 - **[Linterns_Best_Practices]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,9 +86,6 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
-No installation needed
 
 ### Usage
 
@@ -106,8 +104,6 @@ No tests needed at the moment
 
 ### Deployment
 
-You can deploy this project using:
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -116,7 +112,7 @@ You can deploy this project using:
 👤 **Jonathan Arias Gallego**
 
 - GitHub: [sinruidotec](https://github.com/sinruidotec)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jonathan-undefined-385b3926a/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jonathan-arias-gallego-385b3926a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
